@@ -585,7 +585,9 @@ If set to `:none' neither of two will be enabled."
                                         (elm-mode . "elm")
                                         (dart-mode . "dart")
                                         (erlang-mode . "erlang")
-                                        (dockerfile-mode . "dockerfile"))
+                                        (dockerfile-mode . "dockerfile")
+                                        (dhall-mode . "dhall")
+                                        )
   "Language id configuration.")
 
 (defvar lsp-method-requirements
